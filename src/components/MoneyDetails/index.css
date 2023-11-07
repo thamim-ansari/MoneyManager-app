@@ -1,0 +1,72 @@
+.expense-type-container {
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .expense-type-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.expense-category-container {
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .expense-category-container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+.balance-container {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.income-container {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.expense-container {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+.expense-image {
+  width: 60px;
+  height: 60px;
+}
+@media screen and (min-width: 768px) {
+  .expense-image {
+    width: 70px;
+    height: 70px;
+  }
+}
+.money-container {
+  margin-left: 20px;
+  font-family: 'Roboto';
+}
+.money-category-text {
+  color: #475569;
+  font-size: 12px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .money-category-text {
+    font-size: 14px;
+  }
+}
+.money {
+  color: #475569;
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .money {
+    font-size: 24px;
+  }
+}
